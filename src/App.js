@@ -8,9 +8,10 @@ import FeedbackData from "./data/FeedbackData";
 import { FeedbackProvider } from "./context/FeedbackContext";
 import AboutPage from './pages/AboutPage'
 import AboutIconLink from "./components/AboutIconLink";
-import Post from "./components/Post";
+
 
 function App() {
+  //eslint-disable-next-line
 const[feedback,setFeedback]=useState(FeedbackData)
 
 
